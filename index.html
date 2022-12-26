@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <title>E Commerce</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>                
+                <img class="loguito" src="./img/ahorasiputo-removebg-preview.png" alt="">
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li><button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-box-arrow-right"></i>Todos los productos</button>
+                    </li>
+                    <li><button id="cocteleras" class="boton-menu boton-categoria"><i class="bi bi-box-arrow-right"></i>Cocteleras</button>
+                    </li>
+                    <li><button id="coladores" class="boton-menu boton-categoria"><i class="bi bi-box-arrow-right"></i>Coladores</button>
+                    </li>
+                    <li><button id="manuales" class="boton-menu boton-categoria"><i class="bi bi-box-arrow-right"></i>Manuales</button>
+                    </li>
+                    <li><button id="utiles" class="boton-menu boton-categoria"><i class="bi bi-box-arrow-right"></i>De utilidad</button>
+                    </li>
+                    <li><a class="boton-menu boton-carrito" href="./carrito.html">
+                        <i class="fa-solid fa-cart-shopping"></i></i> <span class="numerito" id="numero-carrito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2022 Bartender World</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div class="contenedor-productos" id="contenedor-productos">
+                
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/stock.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/b30432cfd7.js" crossorigin="anonymous"></script>
+</body>
+</html>
