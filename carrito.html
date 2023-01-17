@@ -34,8 +34,6 @@
         <main>
             <h2 class="titulo-principal">Todos los productos</h2>
             <div class="contenedor-carrito">
-                <p id="carrito-vacio" class="carrito-vacio disabled">Tu carrito está vacío 😭</p>
-
                 <div id="carrito-productos" class="carrito-productos disabled">
                     <!-- Esto se va a completar con el JS -->
                 </div>
@@ -53,12 +51,14 @@
                     </div>
                 </div>
 
-                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra 🥰</i></p>
-
             </div>
         </main>
     </div>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./controllers/sweetAlert.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/controllers/homeController.js"></script>
     <script src="js/stock.js"></script>
     <script src="js/carrito.js"></script>
     <script src="https://kit.fontawesome.com/b30432cfd7.js" crossorigin="anonymous"></script>
